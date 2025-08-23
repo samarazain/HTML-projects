@@ -1,25 +1,19 @@
-h1,
-h2,
-h3,
-h4,
-p,
-li,
-{
+h1 {
     font-family: sans-serif;
-    color: #444;
+    color: green;
 }
-h1,
+
 h2,
 h3
 {
-    color: #1098ad;
+    color:green;
 }
 h1{
     font-size: 26px;
     font-family: sans-serif;
     text-transform: uppercase;
     font-style: italic;
-    color:#1098ad;
+    color:green;;
 
 }
 
@@ -75,26 +69,21 @@ header p{
 ul {
     list-style-type: none;  
 }
-
-.main-header {
+ header {
   background-color: #f7f7f7;
 
 }
 aside {
-    background-color: #f7f7f7;
-    border-top: 5px solid #1098ad;
-    border-bottom: 5px solid #1098ad;
+    background-color: #f7f7f7a2;
+    border-top: 20px solid #1098ad;
+    border-bottom: 30px solid #1098ad;
 
 }
 
 body {
-    /* background-color: #f7f7f7; */
+    background-color: #d2c8c8;
 }
 
-/* 
-.first-li {
-    font-weight: bold; 
-} */
  li:first-child {
     font-weight: bold;
  }
@@ -102,6 +91,12 @@ body {
  li:last-child{
     font-style: italic;
  }
- li :nth-child(2) {
-    color: red;
- }
+ a:hover {
+    color: rgb(8, 220, 224);
+}
+a:link {
+    text-decoration: none;
+}
+a:active {
+    color: rgb(4, 4, 4);
+}
